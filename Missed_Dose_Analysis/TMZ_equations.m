@@ -94,6 +94,7 @@ dydt(19) =                                                                      
 dydt(23) = (rho*(y(21)+y(20))*(y(20)+y(21))/K+ (pm*pd/d)*(1-exp(-y(19)*(6.02*10^12)/(y(20)+y(21))))*y(20)+(pm*pd/d)*(1-exp(-y(19)*(6.02*10^12)/(y(20)+y(21))))*a2*y(21))*y(19)/(y(20)+y(21));
 dydt(24) = konMGMT*(y(25)/(y(20)+y(21)))*(y(19)/(y(20)+y(21))) - koffMGMT*y(24)/(y(20)+y(21));
 dydt(25) = -konMGMT*(y(25)/(y(20)+y(21)))*(y(19)/(y(20)+y(21))) + koffMGMT*y(24)/(y(20)+y(21));
+
 % VALUES OF TUMOR
 % Everything below is in terms of volume
 % 20 = Volume of tumor that is susceptible to TMZ
